@@ -39,10 +39,10 @@ body {
 }
 
 #navigationBar li:hover {
-  background: white;
+  background-color: white;
   color: black;
-  transition: background-color, color 250ms linear;
-  opacity: 0.75;
+  transition: background-color 250ms linear;
+  transition: color 250ms linear;
 }
 
 #navigationBar li a {
@@ -53,10 +53,18 @@ body {
 }
 
 #circularIcon {
-  border-radius: 50%;
-  background-color: white;
+  display: inline-block;
 }
 
-#circularIcon:hover {
+#circularIcon img {
+  background-color: white;
+  border-radius: 50%;
+}
 
+#ghIcon img:hover {
+  content: url("../assets/icons8-github.gif");
+}
+
+#liIcon img:hover {
+  content: url("../assets/icons8-linkedin-circled.gif");
 }
