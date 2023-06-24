@@ -51,21 +51,47 @@ body {
 }
 
 
+#mainContent {
+  padding-top: 3vh;
+}
+
+
+#buttonsModule {
+  margin: auto;
+}
 
 #circularIcon {
-  display: inline-block;
+  display: inline;
+  width: 50%;
+  position: relative;
 }
 
 #circularIcon img {
   background-color: white;
   border-radius: 50%;
+  float: left;
+  position: absolute;
+  transform: translateY(-12.5%);
 }
 
-#ghReference img:hover {
+#circularIcon span {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#buttonsModule {
+  padding: 2%;
+}
+
+#ghReference {
+  padding-bottom: 5%;
+}
+
+#ghReference a:hover img {
   content: url("../assets/icons8-github.gif");
 }
 
-#liReference img:hover {
+#liReference a:hover img {
   content: url("../assets/icons8-linkedin-circled.gif");
 }
 
@@ -84,5 +110,5 @@ h2 {
 }
 
 h5 {
-  font-size: 0.66rem;
+  font-size: 0.6rem;
 }

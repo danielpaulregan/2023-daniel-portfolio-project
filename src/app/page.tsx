@@ -25,40 +25,39 @@ export default function Home() {
         </div>
         <nav>
           <ul id="navigationBar" className="text-center outline outline-3">
-            <li><a href="#top">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Get in Touch</a></li>
+            <a href="#top"><li>About</li></a>
+            <a href=""><li>Projects</li></a>
+            <a href=""><li>Get in Touch</li></a>
           </ul>    
         </nav>
       </div>
 
-      <div>
-        <h2 className="text-center">Who is Daniel?</h2>
-        <p className="text-center">Daniel is a guy who likes to learn and needs a job.</p>
+      <div id="mainContent">
+        <h2 className="text-center w-full">Who is Daniel?</h2>
+        <p className="text-center w-full">Daniel is a guy who likes to learn and needs a job.</p>
       </div>
 
-      <div>
+      <div id="buttonsModule" className="bg-black bg-opacity-60 w-1/3">
         <div id="ghReference">
-          <div id="circularIcon" className="text-center">
+          <div id="circularIcon">
             <a href="https://github.com/danielpaulregan">
-              <Image src={ghIconStatic} alt={''} quality={100} className="float-left" />
+              <Image src={ghIconStatic} alt={''} quality={100} />
               <span>My Github Profile</span>
             </a>
           </div>
         </div>
 
         <div id="liReference">
-          <div id="circularIcon" className="">
+          <div id="circularIcon">
             <a href="https://www.linkedin.com/in/danielpaulregan/">
-              <Image src={liIconStatic} alt={''} quality={100} className="float-left" />
+              <Image src={liIconStatic} alt={''} quality={100} />
               <span>Connect (or hire me) on LinkedIn!</span>
             </a>
           </div>
         </div>
       </div>
 
-      <footer className="align-bottom">
+      <footer className="text-center align-bottom bg-black bg-opacity-60">
         <h5><a target="_blank" href="https://icons8.com">Icons supplied by Icons8</a></h5>
       </footer>
     </main>
