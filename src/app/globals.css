@@ -26,16 +26,21 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+
+#nameAndTitle {
+  padding: 2%;
+}
+
 #navigationBar {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding: 1.25%;
 }
 
 #navigationBar li { 
   display: inline;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  font-size: large;
+  padding-top: 1.25%;
+  padding-bottom: 1.25%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 #navigationBar li:hover {
@@ -45,12 +50,7 @@ body {
   transition: color 250ms linear;
 }
 
-#navigationBar li a {
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
+
 
 #circularIcon {
   display: inline-block;
@@ -61,10 +61,28 @@ body {
   border-radius: 50%;
 }
 
-#ghIcon img:hover {
+#ghReference img:hover {
   content: url("../assets/icons8-github.gif");
 }
 
-#liIcon img:hover {
+#liReference img:hover {
   content: url("../assets/icons8-linkedin-circled.gif");
+}
+
+
+
+html {
+  font-size: calc(15px + 0.390625vw);
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 0.66rem;
 }
