@@ -5,7 +5,7 @@ const bg = require('../../assets/backgrounds/background2.jpg');
 
 export function BackgroundImage() {
     return(
-        <div className="absolute -z-10">
+        <div className="absolute -z-10" id="background">
             <Image src={bg} alt={''} quality={100} />
         </div>
     );

@@ -3,8 +3,8 @@ import React from 'react';
 import { Fjalla_One } from 'next/font/google';
 
 import { NameAndTitleModule } from './comp/NameAndTitleModule';
-import { ButtonsModule } from './comp/ButtonsModule';
 import { BackgroundImage } from './comp/BackgroundImage';
+import { FooterWithButtons } from './comp/FooterWithButtons';
 
 const mainFont = Fjalla_One({
   weight: '400',
@@ -27,11 +27,7 @@ export default function Home() {
         <p className="text-center w-full">Daniel is a guy who likes to learn and needs a job.</p>
       </div>
 
-      <ButtonsModule />
-
-      <footer className="text-center align-bottom bg-black bg-opacity-60">
-        <h5><a target="_blank" href="https://icons8.com">Icons supplied by Icons8</a></h5>
-      </footer>
+      <FooterWithButtons />
     </main>
   )
 }
