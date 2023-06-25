@@ -15,7 +15,7 @@ const mainFont = Fjalla_One({
 export default function Home() {
   return (   
     <main className={mainFont.className}>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
       <title>Daniel Regan - Software Engineer & IT Professional</title>
 
       <BackgroundImage />
