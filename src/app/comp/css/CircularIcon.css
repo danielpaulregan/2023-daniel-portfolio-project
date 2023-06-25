@@ -1,0 +1,16 @@
+.circularIcon {
+    display: inline-block;
+}
+  
+.circularIcon img {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.ghReference a:hover img {
+    content: url("../../../assets/circularIcons/icons8-github.gif");
+}
+  
+.liReference a:hover img {
+    content: url("../../../assets/circularIcons/icons8-linkedin-circled.gif");
+}

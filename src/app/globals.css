@@ -27,72 +27,9 @@ body {
 }
 
 
-#nameAndTitle {
-  padding: 2%;
-}
-
-#navigationBar {
-  padding: 1.25%;
-}
-
-#navigationBar li { 
-  display: inline;
-  padding-top: 1.25%;
-  padding-bottom: 1.25%;
-  padding-left: 4%;
-  padding-right: 4%;
-}
-
-#navigationBar li:hover {
-  background-color: white;
-  color: black;
-  transition: background-color 250ms linear;
-  transition: color 250ms linear;
-}
-
 
 #mainContent {
   padding-top: 3vh;
-}
-
-
-#buttonsModule {
-  margin: auto;
-}
-
-#circularIcon {
-  display: inline;
-  width: 50%;
-  position: relative;
-}
-
-#circularIcon img {
-  background-color: white;
-  border-radius: 50%;
-  float: left;
-  position: absolute;
-  transform: translateY(-12.5%);
-}
-
-#circularIcon span {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-#buttonsModule {
-  padding: 2%;
-}
-
-#ghReference {
-  padding-bottom: 5%;
-}
-
-#ghReference a:hover img {
-  content: url("../assets/circularIcons/icons8-github.gif");
-}
-
-#liReference a:hover img {
-  content: url("../assets/circularIcons/icons8-linkedin-circled.gif");
 }
 
 

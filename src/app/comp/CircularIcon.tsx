@@ -1,17 +1,46 @@
 import Image from 'next/image';
-import liIconStatic from '../assets/circularIcons/icons8-linkedin-circled-50.png';
+import React from 'react';
+const styles = require('./css/CircularIcon.css');
 
-export function CircularIcon(props) {
-    return(
-        <div id="circularIcon">
-            <a href={props.href}>
-              <Image src={props.img} alt={''} quality={100} />
-              <span>{props.label}</span>
-            </a>
-        </div>
-    );
+const ghIconStatic = require('../../assets/circularIcons/icons8-github-50.png');
+const liIconStatic = require('../../assets/circularIcons/icons8-linkedin-circled-50.png');
+
+interface Props {
+  href: string,
+  id: string,
 }
 
-Connect (or hire me) on LinkedIn!
+export function CircularIcon({href, id} : Props) {
 
-"https://www.linkedin.com/in/danielpaulregan/"
+    let icon;
+    let iconAnimationClass;
+
+    switch(id) {
+      case 'github': {
+        icon = ghIconStatic;
+        iconAnimationClass = 'ghReference';
+        break;
+      }
+      case 'linkedIn': {
+        icon = liIconStatic;
+        iconAnimationClass = 'liReference';
+        break;
+      }
+      default: {
+        break;
+      }
+    }
+
+    if(icon && iconAnimationClass) {
+      return(
+        <div className={"circularIcon " + iconAnimationClass}>
+            <a href={href}>
+              <Image src={icon} alt={''} quality={100} />
+            </a>
+        </div>
+      );
+    }
+    else {
+      return;
+    }
+}

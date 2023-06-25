@@ -1,8 +1,9 @@
 import Image from 'next/image';
-import bg from '../assets/background2.jpg';
 import { Fjalla_One } from 'next/font/google';
+const bg = require('../assets/backgrounds/background2.jpg');
 import { NameAndTitleModule } from './comp/NameAndTitleModule';
 import { ButtonsModule } from './comp/ButtonsModule';
+import React from 'react';
 
 const mainFont = Fjalla_One({
   weight: '400',
@@ -33,3 +34,14 @@ export default function Home() {
     </main>
   )
 }
+
+// Test for ButtonsModule
+/*
+export default function Home() {
+  return (
+    <main className="bg-white">
+      <ButtonsModule />
+    </main>
+  );
+}
+*/
