@@ -44,4 +44,3 @@ export function CircularIcon({href, id} : Props) {
       return;
     }
 }
-
