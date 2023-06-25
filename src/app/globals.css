@@ -88,11 +88,11 @@ body {
 }
 
 #ghReference a:hover img {
-  content: url("../assets/icons8-github.gif");
+  content: url("../assets/circularIcons/icons8-github.gif");
 }
 
 #liReference a:hover img {
-  content: url("../assets/icons8-linkedin-circled.gif");
+  content: url("../assets/circularIcons/icons8-linkedin-circled.gif");
 }
 
 
