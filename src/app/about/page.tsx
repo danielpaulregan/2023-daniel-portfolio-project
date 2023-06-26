@@ -2,9 +2,9 @@ import Image from 'next/image';
 import React from 'react';
 import { Fjalla_One } from 'next/font/google';
 
-import { NameAndTitleModule } from './comp/NameAndTitleModule';
-import { BackgroundImage } from './comp/BackgroundImage';
-import { FooterWithButtons } from './comp/FooterWithButtons';
+import { NameAndTitleModule } from '../comp/NameAndTitleModule';
+import { BackgroundImage } from '../comp/BackgroundImage';
+import { FooterWithButtons } from '../comp/FooterWithButtons';
 
 const mainFont = Fjalla_One({
   weight: '400',
@@ -12,7 +12,7 @@ const mainFont = Fjalla_One({
 })
 
 
-export default function Home() {
+export default function About() {
   return (   
     <main className={mainFont.className}>
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
@@ -23,8 +23,7 @@ export default function Home() {
       <NameAndTitleModule />
 
       <div id="mainContent">
-        <h2 className="text-center w-full">Who is Daniel?</h2>
-        <p className="text-center w-full">I love learning about new technologies and using them to develop unique, scalable, and efficient software solutions!</p>
+        
       </div>
 
       <FooterWithButtons />
