@@ -6,6 +6,8 @@ import { NameAndTitleModule } from './comp/NameAndTitleModule';
 import { BackgroundImage } from './comp/BackgroundImage';
 import { FooterWithButtons } from './comp/FooterWithButtons';
 
+const myPhoto = require('../assets/myphoto.png');
+
 const mainFont = Fjalla_One({
   weight: '400',
   subsets: ['latin']
@@ -23,7 +25,7 @@ export default function Home() {
       <NameAndTitleModule />
 
       <div id="mainContent">
-        <h2 className="text-center w-full">Who is Daniel?</h2>
+        <Image src={myPhoto} alt={''} id="myPhoto" />
         <p className="text-center w-full">I love learning about new technologies and using them to develop unique, scalable, and efficient software solutions!</p>
       </div>
 
