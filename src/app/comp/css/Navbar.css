@@ -12,6 +12,7 @@
   
 #navigationBar li:hover {
     background-color: white;
+    text-shadow: 2px 2px 1px gray;
     color: black;
     transition: background-color 250ms linear;
     transition: color 250ms linear;
