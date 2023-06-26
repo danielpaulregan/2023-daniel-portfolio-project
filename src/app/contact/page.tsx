@@ -22,7 +22,7 @@ export default function Contact() {
 
       <NameAndTitleModule />
 
-      <div id="mainContent">
+      <div id="mainContent" className="bg-black bg-opacity-25 text-center">
         <p className="text-center w-full">Contact: [Under construction]</p>
       </div>
 

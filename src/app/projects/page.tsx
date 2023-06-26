@@ -6,6 +6,8 @@ import { NameAndTitleModule } from '../comp/NameAndTitleModule';
 import { BackgroundImage } from '../comp/BackgroundImage';
 import { FooterWithButtons } from '../comp/FooterWithButtons';
 
+const styles = require('./page.css');
+
 const mainFont = Fjalla_One({
   weight: '400',
   subsets: ['latin']
@@ -22,8 +24,9 @@ export default function Projects() {
 
       <NameAndTitleModule />
 
-      <div id="mainContent">
-        <p className="text-center w-full">Projects: [under construction]</p>
+      <div id="mainContent" className="bg-black bg-opacity-25 text-center">
+        <h2 className="text-center w-full">Daniel's Projects:</h2>
+        <p className="text-center w-full">1. This website - using React (HTML, CSS, Typescript) and Next.js. See the open-source code <a href="https://github.com/danielpaulregan/2023-daniel-portfolio-project">here!</a></p>
       </div>
 
       <FooterWithButtons />
