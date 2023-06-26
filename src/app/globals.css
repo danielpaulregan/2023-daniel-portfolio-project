@@ -27,8 +27,19 @@ body {
 }
 
 
+
+#myPhoto {
+  width: 37vh;
+  margin: auto;
+  padding-bottom: 2vh;
+}
+
+
+
+
 #mainContent {
   padding-top: 3vh;
+  vertical-align: middle;
 }
 
 
