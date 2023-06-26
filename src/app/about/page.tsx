@@ -23,7 +23,8 @@ export default function About() {
       <NameAndTitleModule />
 
       <div id="mainContent">
-        
+        <h2 className="text-center w-full">About Daniel</h2>
+        <p className="text-center w-full">Daniel graduated from Arizona State University in 2018 with a Bachelor's degree in Computer Science.</p>
       </div>
 
       <FooterWithButtons />
