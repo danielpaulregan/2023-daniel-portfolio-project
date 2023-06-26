@@ -12,7 +12,7 @@ const mainFont = Fjalla_One({
 })
 
 
-export default function About() {
+export default function Contact() {
   return (   
     <main className={mainFont.className}>
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
@@ -23,8 +23,7 @@ export default function About() {
       <NameAndTitleModule />
 
       <div id="mainContent">
-        <h2 className="text-center w-full">About Daniel</h2>
-        <p className="text-center w-full">Daniel graduated from Arizona State University in 2018 with a Bachelor's degree in Computer Science. He lives in Mesa, Arizona with his wife and three dogs. </p>
+        <p className="text-center w-full">Contact: [Under construction]</p>
       </div>
 
       <FooterWithButtons />
