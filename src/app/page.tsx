@@ -24,7 +24,7 @@ export default function Home() {
 
       <NameAndTitleModule />
 
-      <div id="mainContent">
+      <div id="mainContent" className="bg-black bg-opacity-20 text-center">
         <Image src={myPhoto} alt={''} id="myPhoto" />
         <p className="text-center w-full">I love learning about new technologies and using them to develop unique, scalable, and efficient software solutions!</p>
       </div>

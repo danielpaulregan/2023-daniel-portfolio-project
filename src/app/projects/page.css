@@ -1,0 +1,7 @@
+#mainContent a {
+    color: aqua;
+}
+
+#mainContent a:hover {
+    color: darkcyan;
+}
