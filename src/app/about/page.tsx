@@ -24,7 +24,8 @@ export default function About() {
 
       <div id="mainContent">
         <h2 className="text-center w-full">About Daniel</h2>
-        <p className="text-center w-full">Daniel graduated from Arizona State University in 2018 with a Bachelor's degree in Computer Science. He lives in Mesa, Arizona with his wife and three dogs. </p>
+        <p className="text-center w-full">Daniel graduated from Arizona State University in 2018 with a Bachelor of Computer Science. He currently lives in Mesa, Arizona with his wife and three dogs.</p>
+        <p className="text-center w-full">Daniel has previously worked as a software developer for a Fortune-500 company (Republic Services), and is comforable working in a full-stack capacity. He has extensive experience with web development including UI design / creation, API work, writing unit tests, addressing security vulnerabilities, and more. He's also a great team player and thrives in an environment of Agile and cross-functional teams!</p>
       </div>
 
       <FooterWithButtons />
