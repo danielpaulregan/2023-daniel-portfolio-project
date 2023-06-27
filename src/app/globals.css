@@ -60,12 +60,12 @@ h2 {
   font-weight: 400;
 }
 
-h5 {
+h5, span {
   font-size: 0.6rem;
   font-weight: 200;
 }
 
-p, span {
+p {
   padding: 1vh;
   font-weight: 400;
 }
