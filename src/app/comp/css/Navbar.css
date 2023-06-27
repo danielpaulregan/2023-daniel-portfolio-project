@@ -9,11 +9,23 @@
     padding-left: 4%;
     padding-right: 4%;
 }
-  
-#navigationBar li:hover {
-    background-color: white;
-    text-shadow: 2px 2px 1px gray;
-    color: black;
-    transition: background-color 250ms linear;
-    transition: color 250ms linear;
+
+#home:hover, #about:hover, #projects:hover {
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+    padding-left: 4%;
+    padding-right: 4%;
+    transition: padding 100ms ease-out;
+}
+
+#home:hover {
+    background-color: rgb(253, 112, 59);
+}
+
+#about:hover {
+    background-color: rgb(254, 155, 61);
+}
+
+#projects:hover {
+    background-color: rgb(253, 202, 59);
 }
