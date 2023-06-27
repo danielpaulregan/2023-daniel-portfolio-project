@@ -9,7 +9,7 @@ import { FooterWithButtons } from './comp/FooterWithButtons';
 const myPhoto = require('../assets/myphoto.png');
 
 const mainFont = Overpass({
-  weight: '300',
+  weight: 'variable',
   subsets: ['latin']
 });
 

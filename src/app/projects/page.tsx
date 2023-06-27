@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import { Overpass } from 'next/font/google';
 
 import { NameAndTitleModule } from '../comp/NameAndTitleModule';
 import { BackgroundImage } from '../comp/BackgroundImage';
@@ -8,15 +7,10 @@ import { FooterWithButtons } from '../comp/FooterWithButtons';
 
 const styles = require('./page.css');
 
-const mainFont = Overpass({
-  weight: '300',
-  subsets: ['latin']
-})
-
 
 export default function Projects() {
   return (   
-    <main className={mainFont.className}>
+    <main>
       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
       <title>Daniel Regan - Software Engineer & IT Professional</title>
 
