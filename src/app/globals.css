@@ -26,19 +26,8 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-#paddingForMyPhoto {
-  padding-bottom: 2vh;
-  padding-top: 3vh;
-}
-
-#myPhoto {
-  width: 35vh;
-  margin: auto;
-  box-shadow: 0.5em -0.5em rgba(255, 255, 255, 1);
-}
-
 #mainContent {
-  padding-top: 3vh;
+  padding-top: 2vh;
   vertical-align: middle;
 }
 
@@ -52,12 +41,12 @@ html {
 h1 {
   font-size: 3.2rem;
   font-style: bold;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h5, span {

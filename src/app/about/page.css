@@ -1,0 +1,6 @@
+@media (orientation: landscape) {
+    .aboutParagraph {
+      width: 120vh;
+      margin: auto;
+    }
+  }
