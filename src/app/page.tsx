@@ -7,6 +7,7 @@ import { BackgroundImage } from './comp/BackgroundImage';
 import { FooterWithButtons } from './comp/FooterWithButtons';
 
 const myPhoto = require('../assets/myphoto.png');
+const styles = require('./page.css');
 
 const mainFont = Overpass({
   weight: 'variable',
