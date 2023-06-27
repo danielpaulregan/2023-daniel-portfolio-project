@@ -34,7 +34,7 @@ body {
 #myPhoto {
   width: 35vh;
   margin: auto;
-  box-shadow: 0.5em -0.5em rgba(255, 255, 255, 0.8);
+  box-shadow: 0.5em -0.5em rgba(255, 255, 255, 1);
 }
 
 #mainContent {
@@ -51,16 +51,21 @@ html {
 
 h1 {
   font-size: 3.2rem;
+  font-style: bold;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 h5 {
   font-size: 0.6rem;
+  font-weight: 200;
 }
 
-p {
+p, span {
   padding: 1vh;
+  font-weight: 400;
 }
