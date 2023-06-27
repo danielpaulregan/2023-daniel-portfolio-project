@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import { Fjalla_One } from 'next/font/google';
+import { Overpass } from 'next/font/google';
 
 import { NameAndTitleModule } from '../comp/NameAndTitleModule';
 import { BackgroundImage } from '../comp/BackgroundImage';
@@ -8,8 +8,8 @@ import { FooterWithButtons } from '../comp/FooterWithButtons';
 
 const styles = require('./page.css');
 
-const mainFont = Fjalla_One({
-  weight: '400',
+const mainFont = Overpass({
+  weight: '300',
   subsets: ['latin']
 })
 

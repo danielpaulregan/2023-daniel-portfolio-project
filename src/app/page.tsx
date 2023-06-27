@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import { Fjalla_One } from 'next/font/google';
+import { Overpass } from 'next/font/google';
 
 import { NameAndTitleModule } from './comp/NameAndTitleModule';
 import { BackgroundImage } from './comp/BackgroundImage';
@@ -8,11 +8,10 @@ import { FooterWithButtons } from './comp/FooterWithButtons';
 
 const myPhoto = require('../assets/myphoto.png');
 
-const mainFont = Fjalla_One({
-  weight: '400',
+const mainFont = Overpass({
+  weight: '300',
   subsets: ['latin']
-})
-
+});
 
 export default function Home() {
   return (   
@@ -25,7 +24,9 @@ export default function Home() {
       <NameAndTitleModule />
 
       <div id="mainContent" className="bg-black bg-opacity-20 text-center">
-        <Image src={myPhoto} alt={''} id="myPhoto" />
+        <div id="paddingForMyPhoto">  
+          <Image src={myPhoto} alt={''} id="myPhoto" />
+        </div>
         <p className="text-center w-full">I love learning about new technologies and using them to develop unique, scalable, and efficient software solutions!</p>
       </div>
 

@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
-import { Fjalla_One } from 'next/font/google';
+import { Overpass } from 'next/font/google';
 
 import { NameAndTitleModule } from '../comp/NameAndTitleModule';
 import { BackgroundImage } from '../comp/BackgroundImage';
 import { FooterWithButtons } from '../comp/FooterWithButtons';
 
-const mainFont = Fjalla_One({
-  weight: '400',
+const mainFont = Overpass({
+  weight: '300',
   subsets: ['latin']
 })
 
@@ -21,6 +21,7 @@ export default function About() {
       <BackgroundImage />
 
       <NameAndTitleModule />
+      
 
       <div id="mainContent" className="bg-black bg-opacity-25 text-center">
         <h2 className="text-center w-full">About Daniel</h2>

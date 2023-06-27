@@ -1,13 +1,7 @@
-@media (orientation:landscape) {
-    #background {
-        width: 100%;
-        background-size: 100% 100%;
-    }
-}
-
-@media (orientation:portrait) {
-    #background {
-        width: 150%;
-        background-size: 100% 100%;
-    }
+#background {
+    width: max(100vw, 100vh);
+    height: 110%;
+    background-image: url('../../../assets/backgrounds/background2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }

@@ -26,27 +26,25 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-
-
-#myPhoto {
-  width: 37vh;
-  margin: auto;
+#paddingForMyPhoto {
   padding-bottom: 2vh;
+  padding-top: 3vh;
 }
 
-
-
+#myPhoto {
+  width: 35vh;
+  margin: auto;
+  box-shadow: 0.5em -0.5em rgba(255, 255, 255, 0.8);
+}
 
 #mainContent {
   padding-top: 3vh;
   vertical-align: middle;
 }
 
-
-
 html {
   font-size: calc(15px + 0.390625vw);
-  overflow: hidden;
+  overflow-x: hidden;
   
   text-shadow: 2px 2px 1px black;
 }
