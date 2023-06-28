@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { NameAndTitleModule } from '../comp/NameAndTitleModule';
-import { BackgroundImage } from '../comp/BackgroundImage';
-import { FooterWithButtons } from '../comp/FooterWithButtons';
+import { NameAndTitleModule } from '../../comp/NameAndTitleModule';
+import { BackgroundImage } from '../../comp/BackgroundImage';
+import { FooterWithButtons } from '../../comp/FooterWithButtons';
 
 const styles = require('./page.css');
 

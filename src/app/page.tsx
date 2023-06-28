@@ -2,9 +2,9 @@ import Image from 'next/image';
 import React from 'react';
 import { Overpass } from 'next/font/google';
 
-import { NameAndTitleModule } from './comp/NameAndTitleModule';
-import { BackgroundImage } from './comp/BackgroundImage';
-import { FooterWithButtons } from './comp/FooterWithButtons';
+import { NameAndTitleModule } from '../comp/NameAndTitleModule';
+import { BackgroundImage } from '../comp/BackgroundImage';
+import { FooterWithButtons } from '../comp/FooterWithButtons';
 
 const myPhoto = require('../assets/myphoto.png');
 const styles = require('./page.css');
