@@ -25,6 +25,8 @@ export default function Projects() {
         <p>Check back soon for new projects! More coming Summer 2023</p>
       </div>
 
+      <p><br /><br /><br /><br /><br /></p>
+
       <FooterWithButtons />
     </main>
   );

@@ -31,6 +31,8 @@ export default function Home() {
         <p className="text-center w-full">I love learning about new technologies and using them to develop unique, scalable, and efficient software solutions!</p>
       </div>
 
+      <p><br /><br /><br /><br /></p>
+
       <FooterWithButtons />
     </main>
   );
