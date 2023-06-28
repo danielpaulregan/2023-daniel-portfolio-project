@@ -4,7 +4,7 @@ const styles = require('./css/BackgroundImage.css');
 
 export function BackgroundImage() {
     return(
-        <div className="absolute -z-10" id="background">
+        <div id="background">
             
         </div>
     );
