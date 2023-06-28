@@ -2,8 +2,8 @@ import Image from 'next/image';
 import React from 'react';
 const styles = require('./css/CircularIcon.css');
 
-const ghIconStatic = require('../../assets/circularIcons/icons8-github-50.png');
-const liIconStatic = require('../../assets/circularIcons/icons8-linkedin-circled-50.png');
+const ghIconStatic = require('../assets/circularIcons/icons8-github-50.png');
+const liIconStatic = require('../assets/circularIcons/icons8-linkedin-circled-50.png');
 
 interface Props {
   href: string,
