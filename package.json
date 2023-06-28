@@ -1,6 +1,7 @@
 {
   "name": "daniel-portfolio-project",
-  "version": "0.1.0",
+  "homepage": "http://danielpaulregan.tech",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
