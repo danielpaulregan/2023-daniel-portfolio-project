@@ -7,7 +7,7 @@ export function FooterWithButtons() {
         <div id="footerWithButtons">
             <ButtonsModule />
 
-            <footer className="text-center bg-black bg-opacity-80">
+            <footer className="text-center">
                 <h5 className="inline"><a target="_blank" href="https://icons8.com">Icons supplied by Icons8</a><span>&emsp;&emsp;&emsp;Created by Daniel Regan - 2023</span></h5>
             </footer>
         </div>

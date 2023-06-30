@@ -4,3 +4,8 @@
     bottom: 0;
     z-index: 10;
 }
+
+footer {
+    padding-top: 1vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
