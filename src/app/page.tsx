@@ -37,14 +37,3 @@ export default function Home() {
     </main>
   );
 }
-
-// Test for ButtonsModule
-/*
-export default function Home() {
-  return (
-    <main className="bg-white">
-      <ButtonsModule />
-    </main>
-  );
-}
-*/
