@@ -1,5 +1,6 @@
-#navigationBar {
+nav {
     padding: 1.25vh;
+    outline: 3px white solid;
 }
   
 #navigationBar li { 
@@ -10,9 +11,9 @@
     padding-right: 4%;
 }
 
-#home:hover, #about:hover, #projects:hover {
+#navigationBar a:hover {
     padding-top: 1.25vh;
-    padding-bottom: 1.2vh;
+    padding-bottom: 1.25vh;
     padding-left: 4%;
     padding-right: 4%;
     transition: padding 100ms ease-out;

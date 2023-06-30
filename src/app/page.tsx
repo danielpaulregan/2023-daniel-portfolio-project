@@ -24,7 +24,7 @@ export default function Home() {
 
       <NameAndTitleModule />
 
-      <div id="mainContent" className="bg-black bg-opacity-20 text-center">
+      <div id="mainContent" className="text-center">
         <div id="paddingForMyPhoto">  
           <Image src={myPhoto} alt={''} id="myPhoto" />
         </div>

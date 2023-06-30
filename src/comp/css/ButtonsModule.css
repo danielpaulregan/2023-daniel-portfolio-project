@@ -1,5 +1,6 @@
 #buttonsModule {
     margin: auto;
-    padding: 1%;
+    padding-top: 1vh;
     width: calc(125px + 5vw);
+    background-color: rgba(0, 0, 0, 0.8);
 }
