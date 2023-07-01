@@ -1,4 +1,3 @@
-import React from "react";
 const styles = require('./css/Navbar.css');
         
 export function Navbar() {

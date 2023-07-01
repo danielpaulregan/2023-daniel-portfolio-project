@@ -6,7 +6,7 @@
   padding-top: 2vh;
   vertical-align: middle;
   overflow-y: auto;
-  background-color: rbga(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 html, body {

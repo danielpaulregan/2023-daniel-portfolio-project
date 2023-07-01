@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import React from 'react';
 const styles = require('./css/CircularIcon.css');
 
 const ghIconStatic = require('../assets/circularIcons/icons8-github-50.png');
@@ -35,7 +34,7 @@ export function CircularIcon({href, id} : Props) {
       return(
         <div className={"circularIcon " + iconAnimationClass}>
             <a href={href}>
-              <Image src={icon} alt={''} quality={100} />
+              <Image src={icon} alt={''} />
             </a>
         </div>
       );
