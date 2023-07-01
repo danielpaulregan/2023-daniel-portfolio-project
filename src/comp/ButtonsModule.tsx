@@ -1,4 +1,3 @@
-import React from 'react';
 const styles = require('./css/ButtonsModule.css');
 import { CircularIcon } from './CircularIcon';
 
@@ -8,7 +7,6 @@ export function ButtonsModule() {
             <CircularIcon href="https://github.com/danielpaulregan" id='github' />
 
             <CircularIcon href="https://www.linkedin.com/in/danielpaulregan/" id='linkedIn' />
-            
         </div>
     );
 }

@@ -1,4 +1,3 @@
-import React from "react";
 const styles = require('./css/FooterWithButtons.css');
 import { ButtonsModule } from '../comp/ButtonsModule';
 
